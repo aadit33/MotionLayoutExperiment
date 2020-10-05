@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_transform -> startActivity(Intent(this, MotionExpOne::class.java))
+            R.id.action_key_frame_set -> startActivity(Intent(this, MotionExpTwo::class.java))
             else -> {
             }
         }

@@ -4,4 +4,7 @@
     <item android:id="@+id/action_transform"
         android:title="Motion_1"/>
 
+    <item android:id="@+id/action_key_frame_set"
+        android:title="Motion_2"/>
+
 </menu>
